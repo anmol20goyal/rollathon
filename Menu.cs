@@ -4,7 +4,7 @@ using UnityEngine.UI;
 
 public class Menu : MonoBehaviour
 {
-
+// this is a comment
 	public Text highScore;
 	void Start()
 	{
