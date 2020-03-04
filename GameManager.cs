@@ -13,11 +13,8 @@ public class GameManager : MonoBehaviour
 
     public void EndGame()
 	{
-		if( GameHasEnded == false )
-		{
 			GameHasEnded = true;
 			Debug.Log( "Game Over" );
-		}
 	}
 
 	void Start()
@@ -51,8 +48,7 @@ public class GameManager : MonoBehaviour
 			if(DeleteG.transform.position.z + 10 < player.position.z && DeleteG.tag == "Ground")
 			{
 				Destroy(DeleteG);
-			}
-			
+			}	
 		}
 		
 		
